@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulário de Identificação</title>
+  <link rel="stylesheet" href="./css/formStyle.css" />
+</head>
+<body>
+
+  <div class="intro">
+    <h1>Pra confirmar se você é minha princesa mesmo</h1>
+    <form id="intro-form">
+      <div class="field">
+        <label for="q0">1) Qual é o nome completo da minha princesa?</label>
+        <input type="text" id="q0" required autocomplete="off"/>
+        <div id="err-0" class="error-message">Você não é minha princesa!</div>
+      </div>
+      <div class="field">
+        <label for="q1">2) Qual sua idade?</label>
+        <input type="text" id="q1" required/>
+        <div id="err-1" class="error-message">Tá errado, acho que você não é ela!</div>
+      </div>
+      <div class="field">
+        <label for="q2">3) Qual nível de beleza dela? (de 0 a 10)</label>
+        <input type="text" id="q2" required/>
+        <div id="err-2" class="error-message">Errou! Tente "infinito"</div>
+      </div>
+      <div class="field">
+        <label for="q3">4) Qual nome completo do seu maravilhoso e lindo homem?</label>
+        <input type="text" id="q3" required/>
+        <div id="err-3" class="error-message">NÃO SABE MEU NOME????</div>
+      </div>
+      <div class="field">
+        <label for="q4">5) Qual a idade dele?</label>
+        <input type="text" id="q4" required/>
+        <div id="err-4" class="error-message">NÃO SABE A IDADE TAMBÉM?</div>
+      </div>
+      <button type="submit">Confirmar identidade</button>
+    </form>
+  </div>
+
+  <script src="./js/formScript.js"></script>
+</body>
+</html>

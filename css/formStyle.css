@@ -1,0 +1,75 @@
+/* ===== RESET & FONTES (apenas o que é usado no formulário) ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== LAYOUT DO FORMULÁRIO ===== */
+body {
+  background: linear-gradient(135deg, #fff0f6, #ffdeeb);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.intro {
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 35px rgba(0,0,0,0.2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.intro h1 {
+  margin-bottom: 20px;
+  color: #e91e63;
+}
+
+.intro .field {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.intro label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.intro input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.intro .error-message {
+  display: none;
+  margin-top: 5px;
+  color: #ff3860;
+  font-size: 0.9rem;
+}
+
+.intro button {
+  margin-top: 10px;
+  padding: 12px;
+  background: linear-gradient(135deg, #ff6b9d, #ff8e9d);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: transform .3s ease;
+}
+
+.intro button:hover {
+  transform: translateY(-3px);
+}

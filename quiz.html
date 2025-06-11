@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Especial</title>
+    <link rel="stylesheet" href="./css/quizStyle.css" />
+
+</head>
+
+<body>
+
+    <div class="quiz-container" id="quiz">
+        <!-- Pergunta 1 -->
+        <div class="question active">
+            <div class="emoji">🤪</div>
+            <h2>Pergunta 1 de 8</h2>
+            <p>Primeiro de tudo, quem é mais bobo?</p>
+            <div class="progress-container">
+                <div class="progress-bar" style="width: 12.5%"></div>
+            </div>
+            <div class="options">
+                <button onclick="checkAnswer(0, 'eu')">Eu</button>
+                <button onclick="checkAnswer(0, 'você')">Você (essa é a certa!!!)</button>
+            </div>
+        </div>
+        <!-- Pergunta 2 -->
+        <div class="question">
+            <div class="emoji">❤️</div>
+            <h2>Pergunta 2 de 8</h2>
+            <p>O que eu mais amo em você?</p>
+            <div class="progress-container">
+                <div class="progress-bar" style="width: 25%"></div>
+            </div>
+            <div class="options">
+                <button onclick="checkAnswer(1, 'olhos')">Seus olhos</button>
+                <button onclick="checkAnswer(1, 'sorriso')">Seu sorriso</button>
+                <button onclick="checkAnswer(1, 'jeito')">Seu jeito</button>
+                <button onclick="checkAnswer(1, 'tudo')">Cada detalhe seu</button>
+            </div>
+        </div>
+        <!-- Pergunta 3 -->
+        <div class="question">
+            <div class="emoji">💑</div>
+            <h2>Pergunta 3 de 8</h2>
+            <p>Quem ama mais?</p>
+            <div class="progress-container">
+                <div class="progress-bar" style="width: 37.5%"></div>
+            </div>
+            <div class="options">
+                <button onclick="checkAnswer(2, 'eu')">Eu</button>
+                <button onclick="checkAnswer(2, 'você')">Você</button>
+                <button onclick="checkAnswer(2, 'ambos')">Os dois (Mas é claro que sou eu 🙄)</button>
+            </div>
+        </div>
+        <!-- Pergunta 4 -->
+        <div class="question">
+            <div class="emoji">📏</div>
+            <h2>Pergunta 4 de 8</h2>
+            <p>Qual tamanho do seu amor por mim?</p>
+            <div class="progress-container">
+                <div class="progress-bar" style="width: 50%"></div>
+            </div>
+            <div class="options">
+                <button onclick="checkAnswer(3, 'pouco')">Pouco</button>
+                <button onclick="checkAnswer(3, 'bastante')">Bastante</button>
+                <button onclick="checkAnswer(3, 'nenhum')">Nenhum</button>
+                <button onclick="checkAnswer(3, 'infinito')">Infinito</button>
+            </div>
+        </div>
+        <!-- Pergunta 5 -->
+        <div class="question">
+            <div class="emoji">🎨</div>
+            <h2>Pergunta 5 de 8</h2>
+            <p>Qual desses personagens eu disse que ia tatuar primeiro?</p>
+            <div class="progress-container">
+                <div class="progress-bar" style="width: 62.5%"></div>
+            </div>
+            <div class="options">
+                <button onclick="checkAnswer(4, 'luffy')">Luffy</button>
+                <button onclick="checkAnswer(4, 'aranha')">Homem-Aranha</button>
+                <button onclick="checkAnswer(4, 'sonic')">Sonic</button>
+                <button onclick="checkAnswer(4, 'invencivel')">Invencível</button>
+            </div>
+        </div>
+        <!-- Pergunta 6 -->
+        <div class="question">
+            <div class="emoji">😋</div>
+            <h2>Pergunta 6 de 8</h2>
+            <p>Qual minha comida favorita?</p>
+            <div class="progress-container">
+                <div class="progress-bar" style="width: 75%"></div>
+            </div>
+            <div class="options">
+                <button onclick="checkAnswer(5, 'pizza')">Pizza</button>
+                <button onclick="checkAnswer(5, 'hamburguer')">Hambúrguer</button>
+                <button onclick="checkAnswer(5, 'pipoca')">Pipoca</button>
+                <button onclick="checkAnswer(5, 'comida japonesa')">Comida Japonesa</button>
+            </div>
+        </div>
+        <!-- Pergunta 7 -->
+        <div class="question">
+            <div class="emoji">😇</div>
+            <h2>Pergunta 7 de 8</h2>
+            <p>Qual desses lados eu mais gosto em você?</p>
+            <div class="progress-container">
+                <div class="progress-bar" style="width: 87.5%"></div>
+            </div>
+            <div class="options">
+                <button onclick="checkAnswer(6, 'fofa')">Fofa</button>
+                <button onclick="checkAnswer(6, 'safada')">Safada</button>
+                <button onclick="checkAnswer(6, 'ambos')">Ambos (Cada detalhe seu, meu amor)</button>
+            </div>
+        </div>
+        <!-- Pergunta 8 -->
+        <div class="question">
+            <div class="emoji">⚽</div>
+            <h2>Pergunta 8 de 8</h2>
+            <p>Qual meu time do coração? (Se errar essa eu te mato)</p>
+            <div class="progress-container">
+                <div class="progress-bar" style="width: 100%"></div>
+            </div>
+            <div class="options">
+                <button onclick="checkAnswer(7, 'corinthians')">Corinthians</button>
+                <button onclick="checkAnswer(7, 'sao paulo')">São Paulo</button>
+                <button onclick="checkAnswer(7, 'palmeiras')">Palmeiras</button>
+                <button onclick="checkAnswer(7, 'santos')">Santos</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<script src="./js/quizScript.js" defer></script>
